@@ -76,6 +76,9 @@ public class Calc {
         }
         return odp;
     }
+    public double divide(double x,double y){
+        return x/y;
+    }
 
 }
 

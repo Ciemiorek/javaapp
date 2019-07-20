@@ -85,7 +85,11 @@ public class CalcTest {
         assertEquals(result,calc.multiply(a,b));
     }
 
-
+    @ParameterizedTest
+    @CsvSource({"4,2,2","10,5,2"})
+    void checkDevide(double x,double y,double results){
+        assertEquals(results,calc.divide(x,y));
+    }
 
 
 }
