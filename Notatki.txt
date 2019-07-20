@@ -1,0 +1,162 @@
+Apach Maven
+
+po co ?
+- nie jst jedyny ale jst standardm. nastpca Gradle
+- zasady uzywania sa takie same zmienia si synax
+
+!!!!!!!!sream i wyrania lamda ?!!!!!!!!!!!
+repozytorim?
+
+
+INSTALACJA MAVen
+ -maven.apach.org 
+ -m2_HOME 
+ -PATCH
+ -mvn -v
+
+czesto uzywac mv clean -usuwa kaolok
+
+Artyku³ - p³atna java na zimno!
+
+apachi commons sprawdzic czy jest cos tam? 
+
+
+System nie mo¿e odnaleŸæ okreœlonej œcie¿ki.
+
+C:\Users\Latitude\Desktop\ciemiorek\target>cd/
+
+C:\>cd Users\Latitude\Desktop\ciemiorek
+
+C:\Users\Latitude\Desktop\ciemiorek>cd/
+
+C:\>cd Users\Latitude
+
+C:\Users\Latitude>cd/
+
+C:\>cd/
+
+C:\>cd Users\Latitude\Desktop\ciemiorek
+
+C:\Users\Latitude\Desktop\ciemiorek> java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.target\classes pl.conectis.Main
+Error: Could not find or load main class pl.conectis.Main
+
+C:\Users\Latitude\Desktop\ciemiorek> java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.target\classes\pl\conectis\Main
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32          use a 32-bit data model if available
+    -d64          use a 64-bit data model if available
+    -server       to select the "server" VM
+                  The default VM is server.
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+
+C:\Users\Latitude\Desktop\ciemiorek> java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.target\classes pl.conectis.Main
+Error: Could not find or load main class pl.conectis.Main
+
+C:\Users\Latitude\Desktop\ciemiorek>java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.target\classes pl.conectis.Main
+Error: Could not find or load main class pl.conectis.Main
+
+C:\Users\Latitude\Desktop\ciemiorek>java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.target\classes pl.conectis.Main
+Error: Could not find or load main class pl.conectis.Main
+
+C:\Users\Latitude\Desktop\ciemiorek> java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.target\classes pl.conectis.Main
+Error: Could not find or load main class pl.conectis.Main
+
+C:\Users\Latitude\Desktop\ciemiorek> java -cp \Users\Latitude\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;.\target\classes pl.conectis.Main
+3.0
+
+C:\Users\Latitude\Desktop\ciemiorek>
+
+
+!!!!!!!!how to use MAVEN cos he didint tell about it enought !!!!!!!
+
+
+Asercja dw znaczenia !! wbudowany w Jave al ni jest czesto uzywane w Javie 
+
+assert slowo kluczowe takie testy (dozytac)
+
+
+
+
+frameworki do testowani
+ - JUnit(rozwijany stabilnie, niedawno okolo 1,5 roku wszedl Juni 5 duzo zmian i zostal bardzo rozbudowany. Sam w sibu zobil wsteczna kompatybilnosc do Junitu 4)
+ - TesNG(mnij prpularny)
+
+Framworki do zadan specialnych
+-Mockito(najlepszy, wspolgra z Junit 5),EasyMock,Jmock
+
+
+Jak dziala klasa testowa domysle?
+ - KAZDY TEST TWORZY NOWA INSTACJE KLASY (TESTUJE W IZOLACJI)
+- mozna to zmienic wrzucajac inny Runner
+
+
+czas doczytac juz o lmbdach use standart fucnional interface wih lamba expresion na stronie dock cos tam i dostawca predykat takie tam
+
+CO TO KURWA JEST API TESTOWE API HTPP
+
+https://start.spring.io/   -  tworzenie do mavena tego CZegos!!!!!1
+
+
+
+
+
+Testowanie wyjatku 
+Testowanie paametryczne (dane ad hoc. csv,..)
+
+asserJ- mozna zaimponowac( jesto to roszrzeni do Junia) jezyk bardzj zblizony do naturalnego.
+
+
+Strumienie !!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+Nasepne zajecia
+potokul htpp
+
+sql polacznie
+
+git
+https://www.thoughtworks.com/continuous-integration
+
+!!!!!!!!!!!!!!!!
