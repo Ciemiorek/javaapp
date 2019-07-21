@@ -1,0 +1,10 @@
+21.07 Dalsza czêœæ GITa
+
+proces po pushu z repo continous integration
+
+
+travis-ci - system darmowy do testowania aplikacji z repozytorum
+
+1)test
+2)build
+3)deploy
