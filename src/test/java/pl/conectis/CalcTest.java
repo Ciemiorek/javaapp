@@ -20,7 +20,7 @@ public class CalcTest {
 
     @BeforeEach
     void preapareData() {
-        System.out.println("Wykonuje inicjalizacje");
+       // System.out.println("Wykonuje inicjalizacje");
         List<Double> list = Arrays.asList(2d, 3d, 4d, 5d, 6d);
         calc.setValues(list);
 
@@ -29,7 +29,7 @@ public class CalcTest {
 
     @AfterEach
     void cleanUp() {
-        System.out.println("Czyszczenie po kazdym tescie ");
+        //System.out.println("Czyszczenie po kazdym tescie ");
         calc.clear();
     }
 

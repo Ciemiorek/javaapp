@@ -16,7 +16,7 @@ public class Calc {
 
 
     public Calc() {
-        System.out.println("Calc instance" + this);
+        //System.out.println("Calc instance" + this);
     }
 
     public double mean() {
