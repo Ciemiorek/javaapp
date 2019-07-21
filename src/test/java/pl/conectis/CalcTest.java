@@ -68,19 +68,19 @@ public class CalcTest {
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "numbers.csv")
+    @CsvFileSource(resources = "/numbers.csv")
     void checkAddingFromFile(int l1, int l2, int result){
         assertEquals(result, calc.sum(l1, l2));
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "even_odd_numbers.csv")
+    @CsvFileSource(resources = "/even_odd_numbers.csv")
     void checkAddingFromFile(int l1, boolean result){
         assertEquals(result, calc.isEven(l1));
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "numberTomultiply.csv")
+    @CsvFileSource(resources = "/numberTomultiply.csv")
     void checkMultiplyTest(long a,long b,long result){
         assertEquals(result,calc.multiply(a,b));
     }
